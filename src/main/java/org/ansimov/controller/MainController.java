@@ -24,7 +24,7 @@ public class MainController {
         return "all";
     }
 
-    @RequestMapping(value = "/user", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/user", method = RequestMethod.POST)
     @ResponseBody
     public User addUser(@RequestBody User user) {
         System.out.println("user = " + user.toString());

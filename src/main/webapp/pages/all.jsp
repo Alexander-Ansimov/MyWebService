@@ -16,6 +16,7 @@
                     dataType: "json",
                     contentType: "application/json",
                     success: function (data) {
+                        alert("this is JSON: " + JSON.stringify(data));
                         var tr = "<tr><td>" + data.id + "</td><td>" + data.firstName + "</td><td>" + data.lastName + "</td><td>" + data.describe + "</td></tr>";
                         $('#usersTable').append(tr);
                     },
@@ -52,9 +53,9 @@
 <br><br>
 
 <form id="userForm">
-    User First name:<input type="text" name="firstName"  id="firstName"><br>
-    User Last name:<input type="text" name="lastName" id="lastName"><br>
-    User Describing:<input type="text" name="describe" id="describe"><br>
+    User First name:<input type="text" name="firstName"><br>
+    User Last name:<input type="text" name="lastName"><br>
+    User Describing:<input type="text" name="describe"><br>
     <button id="submitUser">Add User</button>
 
 </form>
