@@ -28,7 +28,5 @@
         <mvc:jsp prefix="/pages/" suffix=".jsp"></mvc:jsp>
     </mvc:view-resolvers>
 
-    <!--<mvc:resources mapping="/resources/**" location="/resources/"/>-->
-
 
 </beans>

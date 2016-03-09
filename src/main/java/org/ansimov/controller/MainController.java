@@ -26,12 +26,7 @@ public class MainController {
     }
 
     @RequestMapping(value = "/user", method = RequestMethod.GET)
-    public String allUsers(Model model) {
-        /*User myUser = new User();
-        myUser.setFirstName("Ivan");
-        myUser.setLastName("Ivanov");
-        myUser.setDescribe("This is my first User");
-        model.addAttribute()*/
+    public String allUsers() {
         return "all";
     }
 
