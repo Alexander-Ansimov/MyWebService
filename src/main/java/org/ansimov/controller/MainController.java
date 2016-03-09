@@ -1,19 +1,13 @@
 package org.ansimov.controller;
 
-//import org.json.simple.parser.JSONParser;
 import org.ansimov.model.User;
-//import org.json.simple.parser.ParseException;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
 
 @Controller
 public class MainController {
